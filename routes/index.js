@@ -27,7 +27,7 @@ router.get('/basic_tables.html', function(req, res, next) {
   res.render('basic_tables');
 });
 router.get('/login.html', function(req, res, next) {
-  res.render('login');
+  res.render('login',{layout:'layout2'});
 });
 
 
